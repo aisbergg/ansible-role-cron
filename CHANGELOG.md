@@ -2,29 +2,26 @@
 
 All notable changes to this project will be documented in this file.
 
+- [1.1.0 (2022-01-28)](#1.1.0-2022-01-28)
 - [1.0.0 (2021-10-11)](#100-2021-10-11)
 
 ---
 
-<a name="1.0.0"></a>
-## [1.0.0]() (2021-10-11)
+<a name="1.1.0"></a>
+## [1.1.0](https://github.com/aisbergg/ansible-role-cron/compare/v1.0.0...1.1.0) (2022-01-28)
 
 ### CI Configuration
 
-- add Github action for automatic releases
+- fix automatic release and publish process
 
 ### Chores
 
-- add bump2version config
-- add development configs
-- **.pre-commit-config.yaml:** bump pre-commit hook versions
-- **CHANGELOG.tpl.md:** update changelog template
+- include changelog in bump commits
+- update changelog template
+- **requirements.yml:** add role requirements
 
-### Code Refactoring
 
-- drop support for Ansible < 2.10
+<a name="1.0.0"></a>
+## [1.0.0]() (2021-10-11)
 
-### Documentation
-
-- **README.md:** update readme
-
+Initial Release
